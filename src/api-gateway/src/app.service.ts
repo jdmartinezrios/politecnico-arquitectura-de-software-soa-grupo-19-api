@@ -20,7 +20,7 @@ export class ApiGatewayService {
   constructor(private readonly configService: ConfigService) {}
 
   public getApiVersion(): string {
-    return 'mercado-libre-service';
+    return 'api-gateway';
   }
 
   public async getProducts(query: string) {

@@ -9,7 +9,7 @@ import {
 } from '@nestjs/swagger';
 import { UserResponseDTO } from './dtos/user/response-user.dto';
 
-@Controller('gateway')
+@Controller()
 export class ApiGatewayController {
   constructor(private readonly appService: ApiGatewayService) {}
 

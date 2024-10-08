@@ -22,8 +22,8 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
 1. Clona este repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
-   cd tu-repositorio
+   git clone https://github.com/tu-usuario/politecnico-arquitectura-de-software-soa-grupo-19-api.git
+   cd politecnico-arquitectura-de-software-soa-grupo-19-api
    ```
 
 2. Instala las dependencias para cada microservicio:

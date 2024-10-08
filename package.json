@@ -1,0 +1,13 @@
+{
+  "name": "politecnico-arquitectura-de-software-soa-grupo-19-api",
+  "author": "Arquitectura de software - Grupo 19",
+  "description": "API Rest tipo SOA para consultar articulos, categorias y detalles a traves de la API de Mercado Libre",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run start:dev --prefix ./src/mercado-libre-service\" \"npm run start:dev --prefix ./src/user-service\" \"npm run start:dev --prefix ./src/api-gateway\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}

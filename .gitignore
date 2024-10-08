@@ -1,4 +1,4 @@
-# compiled output
+# Compiled output
 dist
 node_modules
 
@@ -16,6 +16,9 @@ lerna-debug.log*
 coverage
 .nyc_output
 
-db/data
+# Local Database
+db
+
+# Dotenv environment files
 .env
 .env.test
